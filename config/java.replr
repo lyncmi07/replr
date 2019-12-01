@@ -1,0 +1,14 @@
+type:shbang
+base_name:JavaReplr
+source_extension:.java
+compile:javac <%%>.java
+run:java <%%>
+template:
+<%%>
+
+public class JavaReplr {
+<%%>
+public static void main(String... args) {
+<%%>
+}
+}
