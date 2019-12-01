@@ -1,0 +1,8 @@
+(executables
+    (names main)
+    (libraries replr core))
+
+(install
+    (section bin)
+    (files (main.exe as replr)))
+    
