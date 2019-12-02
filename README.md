@@ -9,10 +9,15 @@ The user creates a config `replr` file which contains all the information requir
 
 ### replr file format
 `type:` `shbang` or `repl` defining the behaviour the program should possess
+
 `base_name:` `Value` where value is the name of an artifact for the program (For java `JavaReplr` is the artifact for source file `JavaReplr.java`)
+
 `source_extension:` `.ext` The extension of source files for this language
+
 `compile:` `compiler <%%>.ext` The compile command for this program, replacing `<%%>` with the `base_name` artifact
+
 `run:` `runtime <%%>` The executor command for this program, replacing `<%%>` with the `base_name` artifact
+
 `template:` Placed at the end of the config file, this will be printed into the source file, replacing instances of `<%%>` with the text found
 in the file using this as a shbang. The shbang script file produced will similarly use `<%%>` separators to jump to different positions in the template.
 
