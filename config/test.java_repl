@@ -1,4 +1,4 @@
-#!/home/michael/Documents/ocaml_projects/replr/config/java_replr.sh
+#!/usr/bin/java.replr
 <%%>
 public static void doSomething() {
     System.out.println("This is an existing method");

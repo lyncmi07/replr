@@ -2,4 +2,5 @@
 *.install
 _build
 *.swp
+*.swo
 *.class
