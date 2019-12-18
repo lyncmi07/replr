@@ -1,0 +1,13 @@
+type:shbang
+base_name:JavaDecompileReplr
+source_extension:.java
+compile:javac <%%>.java
+run:javap -c <%%>
+template:
+<%%>
+public class JavaDecompileReplr {
+<%%>
+public static void main(String... args) {
+<%%>
+}
+}

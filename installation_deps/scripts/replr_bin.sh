@@ -3,7 +3,7 @@
 REPLR_INSTALL_LOCATION=/usr/local/share/replr
 
 if test "$1" = 'install'; then
-    $REPLR_INSTALL_LOCATION/scripts/install.sh
+    $REPLR_INSTALL_LOCATION/scripts/install.sh $2
 fi
 
 if test "$1" = 'list'; then
