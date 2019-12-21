@@ -1,6 +1,7 @@
 open Core;;
 open Replr;;
 
+(*
 match (Array.length Sys.argv) with
 | 0 -> 
     print_endline "No config file has been specified";
@@ -28,3 +29,6 @@ try
 with e ->
     In_channel.close config_file;
     raise e;;
+*)
+
+Repl_environment.run In_channel.stdin;;
